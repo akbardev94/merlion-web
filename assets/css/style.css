@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* All */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+
+/* Header Navigation */
+.top-nav {
+    position: fixed;
+    padding: 1rem;
+    background-color: #F4F7FA;
+    box-shadow: 1px 1px 4px 0 #575c59;
+    width: 100%;
+    z-index: 1;
+}
+
+.title-nav {
+    position: absolute;
+    margin: 1rem 20rem 1rem 24rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-main {
+    float: right;
+    margin: 1rem 3rem;
+}
+
+.nav-link {
+    margin: 0.5rem;
+    color: #50504e;
+}
+
+.nav-link:hover {
+    color: #3d3c37;
+}
+
+
+/* sidebar navigation*/
+.left-sidebar {
+    height: 100%;
+    width: 8rem;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #313541;
+}
+
+.nav-main-side {
+    margin: 2rem 0 2rem 0;
+}
+
+.nav-link-icon {
+    padding: 4rem 3rem 3rem 2.5rem;
+    color: #FFFFFF;
+}
+
+.nav-link-group {
+    margin: 2rem 1rem 2rem 1rem;
+}
+
+.nav-link-icon:hover {
+    background-color: #72CDD2;
+}
+
+.nav-link-txt {
+    color: #FFFFFF;
+    margin: 0 2rem 3rem 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.nav-category {
+    position: fixed;
+    height: 100%;
+    width: 15rem;
+    z-index: 2;
+    top: 0;
+    left: 8rem;
+    background-color: #282C37;
+}
+
+
+/* sidebar categories */
+.nav-sub-group {
+    color: #FFFFFF;
+}
+
+.main-accordion {
+    background-color: #282C37;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 1.5rem 1rem 1rem 2rem;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 0.8rem;
+    transition: 0.4s;
+  }
+  
+  .active, .main-accordion:hover {
+    background-color: #070808;
+    color: #7FFF00;
+  }
+  
+  .main-accordion:after {
+    content: '\25BC';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\25B2";
+  }
+  
+  .main-panel {
+    padding: 0 2rem;
+    margin: 0 1rem 0 0.5rem;
+    font-size: 0.8rem;
+    color: #FFFFFF;
+    background-color: #282C37;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
+.main-accordion-link {
+    background-color: #282C37;
+    color: #FFFFFF;
+    cursor: pointer;
+    padding: 2rem 3rem 1rem 2rem;
+    border: none;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    font-size: 0.8rem;
+    transition: 0.4s;
+}
+
+.active, .main-accordion-link:hover {
+    background-color: #000000;
+    color: #7FFF00;
+  }
+
+.txt-accordion {
+    color: #fefffd;
+}
+
+.sub-text-accordion {
+    color: #777;
+    margin: 1rem 0 1rem 0;
+}
+
+.detail-category {
+    position: fixed;
+    height: 100%;
+    width:20rem;
+    background-color: #282C37;
+    float: right;
+    top: -35rem;
+    left: 60rem;
+    z-index: -1;
+}
+
+/* Coordinate Map */
+#map { 
+    position: relative;
+    width: 998px;
+    height: 540px;
+    top: 5.2rem;
+    left: 23rem;
+    z-index: -1;
+}
