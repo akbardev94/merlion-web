@@ -30,7 +30,7 @@
       <nav class="nav-main">
           <a class="nav-link" href="#"><i class="fa-solid fa-gear fa-xl"></i></a>
           <a class="nav-link" href="#"><i class="fa-solid fa-circle-question fa-xl"></i></a>
-          <a class="nav-link" href="#"><i class="fa-solid fa-circle-xmark fa-xl"></i></a>
+          <a class="nav-link" href="javascript:void(0)" onclick="closeNav()"><i class="fa-solid fa-circle-xmark fa-xl"></i></a>
       </nav>
     </header>
 
@@ -66,7 +66,7 @@
             <nav class="nav-sub-side">
               <div class="nav-sub-group">
                 <button class="main-accordion"><a class="txt-accordion" href="#">Filter By favorite</a></button>
-                <button class="main-accordion-link"><a class="txt-accordion" href="#">Merlion</a></button>
+                <button class="main-accordion-link"><a class="txt-accordion" href="#" onclick="openNav()">Merlion</a></button>
                 <button class="main-accordion"><a class="txt-accordion" href="#">Marina By Sands</a></button>
                 <div class="main-panel">
                   <p class="sub-text-accordion" href="#">ArtScience Museum</p>
@@ -91,11 +91,16 @@
             </nav>
         </section>
         
-        <section >
-          <div id="map">
-            
-          </div>
-          <article class="detail-category"></article>
+        <section>
+          <div id="map"></div>
+          <article id="detail" class="detail-category">
+            <img src="assets/img/sidebar/img-merlion.png" class="img-merlion" alt="image merlion">
+            <h4 class="title-detail">Merlion</h4>
+            <p class="txt-detail">The merlion is the national personification of singapore</p>
+            <p class="txt-detail">its name combine "mer" meaning the sea and "lion". The fish body represents Singapore's origin as a fishing village when it was called Termasek, which means "sea town" in Javanese. The lion head represents Singapore's original name-Singapura-meaning "lion city" or "kota singa"</p>
+            <p class="loc-detail"><i class="fa-solid fa-location-dot"></i> 10 Bayfront Avenue, Singapore</p>
+            <p class="web-detail"><i class="fa-solid fa-earth-asia"></i> http://www.marinabaysands.com/</p>
+          </article>
         </section>
         
     </main>

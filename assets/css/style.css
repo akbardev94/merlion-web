@@ -160,17 +160,6 @@
     margin: 1rem 0 1rem 0;
 }
 
-.detail-category {
-    position: fixed;
-    height: 100%;
-    width:20rem;
-    background-color: #282C37;
-    float: right;
-    top: -35rem;
-    left: 60rem;
-    z-index: -1;
-}
-
 /* Coordinate Map */
 #map { 
     position: relative;
@@ -179,4 +168,55 @@
     top: 5.2rem;
     left: 23rem;
     z-index: -1;
+}
+
+#detail {
+    display: block;
+    height: 100%;
+    width: 18rem;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 67.5rem;
+    background-color: #313541;
+}
+
+.img-merlion {
+    width: 100%;
+    margin: 5rem 0 -5px 0;
+}
+
+.title-detail {
+    padding: 1rem 1rem 1rem 1rem;
+    background-color: #72CDD2;
+    color: #fefffd;
+    letter-spacing: 2px;
+}
+
+.txt-detail {
+    margin: 1rem 2rem 1rem 2rem;
+    font-size: 0.8rem;
+    color: #fefffd;
+}
+
+.fa-location-dot {
+    margin-left: 20px;
+    color: #3cffef;
+}
+
+.fa-earth-asia {
+    margin-left: 20px;
+    color: #7FFF00;
+}
+
+.loc-detail {
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+    color: #fefffd;
+}
+
+.web-detail {
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 0.8rem;
+    color: #fefffd;
 }

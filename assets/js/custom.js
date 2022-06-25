@@ -43,7 +43,13 @@ var mIconMBS = L.marker([1.283099, 103.860295], {icon: mapsIcon}).bindPopup('Mar
 var mIconGBB = L.marker([1.281790, 103.863954], {icon: mapsIcon}).bindPopup('Garden by the Bay').addTo(map);
 var mIconCT = L.marker([1.284193, 103.843362], {icon: mapsIcon}).bindPopup('China Town').addTo(map);
 
+// sidebar detail
+function closeNav() {
+  document.getElementById("detail").style.display = "none";
+}
 
-
+function openNav() {
+  document.getElementById("detail").style.display = "block";
+}
 
 
